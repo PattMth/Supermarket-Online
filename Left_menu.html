@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Left_menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/background.css">
+<body>
+  <div id="checkoutblockbg"></div>
+  <div id="checkoutblock">
+    <center>Please Finish your Checkout Process</center></div>
+
+  <!-- sidemenu -->
+  <div id="menu">
+    <a href="#" class="tablinks" id="Frozen_Food" onmouseover="openPage(event,'Frozen')">Frozen Food<img class="icon" src="icon/FrozenFood.png" alt="Frozen Icon"> </a>
+    <a href="#" class="tablinks" id="Fresh_Food" onmouseover="openPage(event,'Fresh')">Fresh  Food <img class="icon" src="icon/Fish.png" alt="Seafood Icon"></a>
+    <a href="#" class="tablinks" id="Beverages" onmouseover="openPage(event,'Beverage')">Beverages<img class="icon" src="icon/Beverage.png" alt="Beverage Icon"></a>
+    <a href="#" class="tablinks" id="Home_Health" onmouseover="openPage(event,'Home')">Home Health<img class="icon" src="icon/homehealth.png" alt="homehealth Icon"></a>
+    <a href="#" class="tablinks" id="Pet_Food" onmouseover="openPage(event,'Pet')">Pet Food<img class="icon" src="icon/PetFood.png" alt="PetFood Icon"></a>
+  </div>
+
+  <div id="Frozen" class="tabcontent">
+    <center><h2><b> Frozen Food </b></h2></center>
+    <ul>
+      <li class="box">Fish Fingers
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="1000">500 gram</button>
+          <button type="submit" name="id" value="1001">1000 gram</button>
+        </form>
+      </li>
+      <li class="box">Hamburger Patties
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="1002">Pack 10</button>
+        </form>
+      </li>
+      <li class="box">Shelled Prawn.
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="1003">250 gram</button>
+        </form>
+      </li>
+      <li class="box">Tub Ice Cream
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="1004">1 Litre</button>
+        </form>
+      </li>
+    </ul>
+  </div>
+
+  <div id="Fresh" class="tabcontent">
+    <center><h2><b> Fresh Food </b></h2></center>
+    <ul>
+      <li class="box">Cheddar Cheese
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="3000">500 gram</button>
+          <br>
+          <button type="submit" name="id" value="3001">1000 gram</button>
+        </form>
+      </li>
+      <li class="box">T-Bone Steak
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="3002">1000 gram</button>
+        </form>
+      </li>
+      <li class="box">Navel Oranges
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="3003">Bag 20</button>
+        </form>
+      </li>
+      <li class="box">Bananas
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="3004">1 Kilo</button>
+        </form>
+      </li>
+      <li class="box">Peaches
+        <form action="show_products.php" method="get" target="top_right"  >
+          <button type="submit" name="id" value="3005">1 Kilo</button>
+        </form>
+      </li>
+      <li class="box">Grapes
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="3006">1 Kilo</button>
+        </form>
+      </li>
+      <li class="box">Apple
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="3007">1 Kilo</button>
+        </form>
+      </li>
+    </ul>
+  </div>
+
+
+  <div id="Beverage" class="tabcontent">
+    <center><h2><b> Beverages </b></h2></center>
+    <ul>
+      <li class="box">Earl Grey Tea Bags
+        <form action="show_products.php" method="get" target="top_right" style="margin-top: 1px" >
+          <button type="submit" name="id" value="4000">Pack 25</button>
+          <br>
+          <button type="submit" name="id" value="4001">Pack 100</button>
+          <br>
+          <button type="submit" name="id" value="4002">Pack 200</button>
+        </form>
+      </li>
+      <li class="box">Instant Coffee
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="4003">200 gram</button>
+          <br>
+          <button type="submit" name="id" value="4004">500 gram</button>
+        </form>
+      </li>
+      <li class="box">Chocolate Bar
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="4005">500 gram</button>
+        </form>
+      </li>
+    </ul>
+  </div>
+
+  <div id="Home" class="tabcontent">
+    <center><h2><b> Home Health </b></h2></center>
+    <ul>
+      <li class="box">Panadol
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="2000">Pack 24</button>
+          <br>
+          <button type="submit" name="id" value="2001">Bottle 50</button>
+        </form>
+      </li>
+      <li class="box">Bath Soap
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="2002">Pack 6</button>
+        </form>
+      </li>
+      <li class="box">Garbage Bags
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="2003">Pack 10</button>
+          <br>
+          <button type="submit" name="id" value="2004">Pack 50</button>
+        </form>
+      </li>
+      <li class="box">Washing Powder
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="2005">1000 gram</button>
+        </form>
+      </li>
+      <li class="box">Laundry Bleach
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="2006">2 Litre bottle</button>
+        </form>
+      </li>
+    </ul>
+  </div>
+
+  <div id="Pet" class="tabcontent">
+    <center><h2><b> Pet Food </b></h2></center>
+    <ul>
+      <li class="box">Dry Dog Food
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="5000">5 kg Pack</button>
+          <br>
+          <button type="submit" name="id" value="5001">1 kg Pack</button>
+        </form>
+      </li>
+      <li class="box">Bird Food
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="5002">500gr packet</button>
+        </form>
+      </li>
+      <li class="box">Cat Food
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="5003">500 gram</button>
+        </form>
+      </li>
+      <li class="box">Fish Food
+        <form action="show_products.php" method="get" target="top_right" >
+          <button type="submit" name="id" value="5004">500 gram</button>
+        </form>
+      </li>
+    </ul>
+  </div>
+  <!-- hover to open content -->
+
+  <div class="clearfix"></div>
+
+  <script>
+  function openPage(evt, foodType) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(foodType).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+</script>
+</body>
+</html>

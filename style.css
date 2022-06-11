@@ -1,0 +1,98 @@
+img.icon {
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+#menu a {
+  position: absolute;
+  left: -130px;
+  transition: 0.4s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#menu a:hover {
+  left: 0;
+}
+
+#Frozen_Food {
+  top: 20px;
+  background-color: #00ffff;
+}
+
+#Fresh_Food {
+  top: 82px;
+  background-color: #2196F3;
+}
+
+#Beverages {
+  top: 142px;
+  background-color: #c299ff;
+}
+
+#Home_Health {
+  top: 202px;
+  background-color: #00e673;
+}
+
+#Pet_Food {
+  top: 262px;
+  background-color: #ffa64d;
+}
+.box {
+  background-color: #bae8e8;
+  height: 150px;
+  width: 135px;
+  border: 3px solid black;
+  border-radius: 10px 10px 10px 10px;
+  margin: 10px 10px 5px 10px;
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+}
+.tabcontent {
+  background-color: #e3f6f5;
+  border: 3px solid black;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 180px;
+  padding: 0px 12px;
+  width: 700px;
+  height: 700px;
+  display: none;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+button {
+  background-color: #ff7315;
+  border: none;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+}
+form{
+  margin-top:50px;
+
+}
+li{
+  float: left;
+}
+body{
+  background-color: #fff1cc;
+}
+li:hover{
+  box-shadow: 0 0 20px #ffff1a;
+  transition: 0.3s;
+}

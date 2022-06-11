@@ -1,0 +1,11 @@
+span.close{
+  float: right;
+  color: #000;
+	font-size: 40px;
+	font-weight: bold;
+}
+span:hover.close{
+  color: #f00;
+  transition: 0.3s;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+input {
+  font-family: cursive;
+  background-color:#fff1cc;
+  border: 1px solid black;
+}
+input:hover{
+  background-color:#fab700;
+  transition: 0.3s;
+  box-shadow: 0 0 5px;
+  transition: 0.3s;
+}
